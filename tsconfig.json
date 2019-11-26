@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module":"esNext",
+    "target": "es6",
+    "noImplicitAny":false,
+    "experimentalDecorators":true,
+    "moduleResolution":"node",
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "outDir": "dist",
+    "rootDir":"src"
+  },
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts",
+    "**/*.d.ts"
+  ], 
+  "typeRoots": [
+    "./node_modules/@types"
+  ]
+}
+
